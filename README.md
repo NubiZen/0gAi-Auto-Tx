@@ -1,16 +1,16 @@
 # **Automated Token Swapper for 0G-Newton-Testnet**  
 
-## **ðŸ“Œ Overview**  
+## **Overview**  
 Bot ini dirancang untuk melakukan swap token secara otomatis di jaringan **0G-Newton-Testnet** menggunakan **Uniswap V3**. Bot akan mencari token yang tersedia dalam dompet, menentukan pasangan trading yang sesuai, dan mengeksekusi swap dengan jumlah dan jeda waktu yang dapat disesuaikan.  
 
-## **ðŸš€ Fitur Utama**  
+## **Fitur Utama**  
 âœ… **Deteksi Saldo Otomatis** â€“ Menganalisis token yang tersedia untuk swap.  
 âœ… **Pemilihan Pasangan Token Cerdas** â€“ Memilih pasangan perdagangan yang optimal.  
 âœ… **Swap Token Acak** â€“ Menentukan jumlah swap berdasarkan persentase saldo.  
 âœ… **Optimasi Biaya Gas** â€“ Menggunakan Uniswap Router dengan fee terbaik.  
 âœ… **Eksekusi Transaksi Berulang** â€“ Menjalankan transaksi dengan jumlah dan interval waktu tertentu.  
 
-## **ðŸ› ï¸ Instalasi & Konfigurasi**  
+## **Instalasi & Konfigurasi**  
 
 ### **1. Clone Repository**  
 \`\`\`sh
@@ -38,7 +38,7 @@ MIN_BALANCE_FOR_SWAP=0.1
 node index.js
 \`\`\`
 
-## **âš™ï¸ Cara Kerja**  
+## **Cara Kerja**  
 1. Bot membaca private key dari \`.env\` dan menghubungkan dompet ke jaringan.  
 2. Mengecek saldo token dan menentukan token yang bisa ditukar.  
 3. Memilih pasangan token dari daftar yang tersedia.  
@@ -46,7 +46,7 @@ node index.js
 5. Mengeksekusi transaksi swap menggunakan Uniswap Router.  
 6. Mengulangi proses sesuai dengan jumlah yang telah ditentukan.  
 
-## **â— Troubleshooting**  
+## **Troubleshooting**  
 
 ### **1. Private Key Tidak Valid**  
 - Pastikan format private key benar di file \`.env\`.  
@@ -60,16 +60,16 @@ node index.js
 - Bisa jadi jaringan sibuk, coba jalankan ulang.  
 - Pastikan **RPC_URL** valid dan terhubung ke jaringan 0G-Newton-Testnet.  
 
-## **ðŸ”— Referensi**  
+## **Referensi**  
 - [Uniswap V3 Docs](https://docs.uniswap.org/)  
 - [0G-Newton-Testnet Explorer](https://example.com/)  
 
-## **ðŸ“œ Lisensi**  
+## **Lisensi**  
 Proyek ini dilisensikan di bawah **MIT License**. Anda bebas menggunakannya untuk tujuan edukasi dan pengembangan lebih lanjut.  
 
 ---
 
-**ðŸ“§ Kontak & Dukungan**  
+**Kontak & Dukungan**  
 Jika mengalami kendala atau ingin berkontribusi, silakan buat **issue** di repository ini atau hubungi saya langsung.
 
 [Telegram](https://t.me/GrownAirdrop)
